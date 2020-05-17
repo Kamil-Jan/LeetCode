@@ -17,10 +17,3 @@ class Solution:
             say += f"{count}{last}"
             return say
 
-x = Solution()
-print(x.countAndSay(1))
-print(x.countAndSay(2))
-print(x.countAndSay(3))
-print(x.countAndSay(4))
-print(x.countAndSay(5))
-

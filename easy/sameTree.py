@@ -1,4 +1,3 @@
-# Definition for a binary tree node.
 class Solution:
     def isSameTree(self, p: "TreeNode", q: "TreeNode") -> bool:
         def check(node1, node2):

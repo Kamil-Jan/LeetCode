@@ -10,6 +10,3 @@ class Solution:
                 return i
         return len(haystack) - needle_len
 
-x = Solution()
-print(x.strStr("mississippi", "pi"))
-

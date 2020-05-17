@@ -8,9 +8,6 @@ class Solution:
                     pass
                 else:
                     return prefix
-            prefix += last_sym
+            prefix = f"{prefix}{last_sym}"
         return prefix
-
-x = Solution()
-print(x.longestCommonPrefix([]))
 

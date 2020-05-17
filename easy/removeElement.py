@@ -7,6 +7,3 @@ class Solution:
                 i += 1
         return i
 
-x = Solution()
-print(x.removeDuplicates([3,2,2,3,3], 3))
-

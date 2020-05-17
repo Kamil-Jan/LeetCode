@@ -31,6 +31,3 @@ class Solution:
             integer += arabic
         return integer
 
-x = Solution()
-print(x.romanToInt("IX"))
-

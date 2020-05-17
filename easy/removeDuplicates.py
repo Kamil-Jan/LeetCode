@@ -9,6 +9,3 @@ class Solution:
                 nums[i] = nums[j]
         return i + 1
 
-x = Solution()
-print(x.removeDuplicates([1,2,2,3]))
-

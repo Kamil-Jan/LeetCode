@@ -7,6 +7,3 @@ class Solution:
                 return i
         return len(nums)
 
-x = Solution()
-print(x.searchInsert([1], 2))
-
